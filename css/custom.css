@@ -1,0 +1,259 @@
+.bgr {
+    background-color: #1e1e1e;
+    background: url(../assets/BG-desktop.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.page-content {
+    background-color: #1e1e1e;
+    margin-top: 50px;
+}
+
+.rockinlilo-navbar {
+    height: 100px;
+}
+
+.rockinlilo-navbar .navbar-bg {
+    background-color: var(--color1) !important;
+}
+
+.rockinlilo-navbar a {
+    color: var(--color2);
+    text-transform: uppercase;
+}
+
+.rockinlilo-navbar a.active {
+    color: var(--color3);
+}
+
+.rockinlilo-navbar a:hover:not(.active) {
+    color: var(--color3);
+}
+
+.rockinlilo-banner-red {
+    margin-top: -70px;
+    z-index: 2;
+    position: relative;
+}
+
+.rockinlilo-banner-red .row {
+    margin-top: -530px;
+}
+
+.rockinlilo-banner-red h1 {
+    margin-top: 150px;
+}
+
+.rockinlilo-godbless-poster {
+    margin-top: -12px;
+    z-index: 1;
+}
+
+.rockinlilo-godbless-poster div {
+    width: 50%;
+    height: 20px
+}
+
+.rockinlilo-details {
+    margin-top: 50px;
+}
+
+.rockinlilo-lineup {
+    margin-top: 50px;
+}
+
+.rockinlilo-lineup-btn-more {
+    margin-top: 20px;
+}
+
+.rockinlilo-lineup-btn-more a {
+    margin-left: 60px;
+}
+
+.rockinlilo-youtube {
+    margin-top: 50px;
+    background-image: url(../assets/Youtube-bg.png);
+    background-size: cover;
+    height: auto;
+    width: 98%;
+    padding-bottom: 200px;
+}
+
+.rockinlilo-youtube h1 {
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+.rockinlilo-youtube .row {
+    max-width: 80%;
+    margin-top: 80px;
+}
+
+.rockinlilo-youtube .row h2 {
+    font-size: 25px;
+}
+
+.youtube-thumbnail {
+    padding: 10px;
+    position: relative;
+}
+
+.youtube-thumbnail .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.youtube-thumbnail .centered a {
+    display: block;
+    background-color: #ffffff7d;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.youtube-thumbnail .centered a:hover {
+    background-color: var(--color2);
+}
+
+.youtube-thumbnail .centered img {
+    margin-top: 30px;
+}
+
+.rockinlilo-tickets {
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.rockinlilo-tickets h1 {
+    font-size: 60px;
+}
+
+.rockinlilo-tickets a {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.rockinlilo-tickets a:hover {
+    width: 55%;
+}
+
+.rockinlilo-footer {
+    margin-top: 50px;
+    height: 250px;
+    background-color: var(--color3);
+}
+
+.rockinlilo-footer a {
+    font-size: 20px;
+}
+
+.rockinlilo-footer a:hover {
+    border-bottom: 2px solid var(--color1);
+}
+
+.rockinlilo-footer span {
+    margin-left: 5px;
+}
+
+.mobile-menu {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .rockinlilo-navbar {
+        display: none;
+    }
+    .rockinlilo-navbar-mobile {
+        display: block !important;
+    }
+    .rockinlilo-banner-red {
+        margin-top: -55px;
+    }
+    .rockinlilo-banner-red h1 {
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .rockinlilo-banner-red img {
+        height: 220px;
+    }
+    .rockinlilo-banner-red .row {
+        margin-top: -185px;
+    }
+    .rockinlilo-banner-red .row img {
+        width: 150px;
+        height: 150px;
+    }
+    .rockinlilo-godbless-poster div {
+        height: 10px;
+    }
+    .rockinlilo-godbless-poster img {
+        width: 90%;
+    }
+    .rockinlilo-details img {
+        width: 94%;
+    }
+    .rockinlilo-lineup-btn img, .rockinlilo-lineup-artist img {
+        width: 90%
+    }
+    .rockinlilo-youtube {
+        margin-top: -20px;
+        padding-bottom: 80px;
+    }
+    .rockinlilo-youtube h1 {
+        margin-top: -5px;
+        font-size: 32px;
+    }
+    .youtube-thumbnail .centered a {
+        height: 50px;
+        width: 50px;
+    }
+    .youtube-thumbnail .centered img {
+        margin-top: 13px;
+        width: 20px;
+    }
+    .rockinlilo-youtube .row h2 {
+        font-size: 15px;
+    }
+    .rockinlilo-youtube .row {
+        margin-top: 10px;
+    }
+    .rockinlilo-tickets {
+        padding-bottom: 50px;
+    }
+    .rockinlilo-tickets h1 {
+        font-size: 35px;
+    }
+    .rockinlilo-tickets img {
+        width: 90%;
+    }
+    .rockinlilo-tickets a {
+        margin-top: 30px;
+    }
+    .rockinlilo-tickets a img {
+        width: 90%;
+    }
+    .rockinlilo-tickets a:hover {
+        width: 95%;
+    }
+    .rockinlilo-footer {
+        height: 280px;
+    }
+    .rockinlilo-footer .row {
+        max-width: 94% !important;
+    }
+    .rockinlilo-footer a {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .rockinlilo-navbar .navbar-inner {
+        padding: 0px 100px;
+    }
+}
