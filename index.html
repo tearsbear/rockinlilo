@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#000000">
+    <!-- Your app title -->
+    <title>Rockinlilo</title>
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="css/framework7.bundle.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/color-font.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <div class="panel panel-right panel-menu panel-cover panel-init bg-color3">
+            <div class="block">
+                <div style="float: right">
+                    <a href="#" class="panel-close">
+                        <img src="assets/Menus-close.png" width="40" alt="">
+                    </a>
+                </div>
+                <div style="clear:both"></div>
+                <p><a href="#" class="link external font-exo-bold color2 mobile-menu">HOME</a></p>
+                <p><a href="#" class="link external font-exo-bold color2 mobile-menu">CONCERT & EVENTS</a></p>
+                <p><a href="#" class="link external font-exo-bold color2 mobile-menu">ABOUT US</a></p>
+            </div>
+        </div>
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="home" class="page">
+
+                <!-- Top Navbar Desktop -->
+                <div class="navbar no-shadow rockinlilo-navbar">
+                    <div class="navbar-bg"></div>
+                    <div class="navbar-inner">
+                        <div class="title">
+                            <img src="assets/logo.png" width="100%" alt="rockinlilo-logo">
+                        </div>
+                        <div class="right font-montserrat-bold">
+                            <a href="#" class="link external active">Home</a>
+                            <a href="#" class="link external">Concert & Events</a>
+                            <a href="#" class="link external">About Us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navbar rockinlilo-navbar-mobile" style="height: 80px; display: none">
+                    <div class="navbar-bg bg-color1"></div>
+                    <div class="navbar-inner sliding">
+                        <div class="title"><img src="assets/logo.png" style="margin-top: 5px;" width="80"
+                                alt="rockinlilo-logo"></div>
+                        <div class="right">
+                            <a class="link panel-open" data-panel=".panel-menu">
+                                <img src="assets/Menus.png" width="30" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scrollable page content -->
+                <div class="page-content">
+
+                    <div class="bgr">
+
+                        <div class="rockinlilo-banner-red">
+                            <img src="assets/Brush-red.png" width="100%" height="600" alt="">
+
+                            <div class="row no-gap">
+                                <div class="col-33">
+                                    <img src="assets/icon-large.png" width="100%" alt="">
+                                </div>
+                                <div class="col-66">
+                                    <h1 class="color2 font-exo-semibold">"Menghidupkan kembali
+                                        ekosistem pertunjukan seni,
+                                        khususnya seni
+                                        musik di masa dan
+                                        pasca pandemi, dengan mengedepankan
+                                        perkembangan teknologi di era digital."</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rockinlilo-godbless-poster">
+                            <center>
+                                <div class="bg-color1"></div>
+                                <img src="assets/poster.png" width="50%" alt="">
+                            </center>
+                        </div>
+
+                        <div class="rockinlilo-details">
+                            <center>
+                                <img src="assets/Details.png" width="54%" alt="">
+                            </center>
+                        </div>
+
+                        <div class="rockinlilo-lineup">
+                            <center>
+                                <div class="rockinlilo-lineup-btn">
+                                    <img src="assets/Lineup-btn.png" width="500" alt="">
+                                </div>
+
+                                <div class="rockinlilo-lineup-artist">
+                                    <img src="assets/Lineup-artist.png" width="50%" alt="">
+                                </div>
+
+                                <!-- <div class="rockinlilo-lineup-btn-more">
+                                <a href="#">
+                                    <img src="assets/Lineup-btn-more.png" width="200" alt="">
+                                </a>
+                            </div> -->
+                            </center>
+                        </div>
+
+                        <div class="rockinlilo-youtube">
+                            <div style="height: 100px"></div>
+
+                            <center>
+                                <h1 class="font-exo-bold color2">Youtube Content</h1>
+                                <div class="row" id="youtubeList">
+
+                                </div>
+                            </center>
+                        </div>
+
+
+                        <div class="rockinlilo-tickets">
+                            <br>
+                            <center>
+                                <h1 class="font-exo-bold color2">How To Buy</h1>
+                                <img src="assets/Ticket-how.png" width="50%" alt="">
+
+                                <a href="#" class="link">
+                                    <img src="assets/Ticket-btn.png" width="50%" alt="">
+                                </a>
+                            </center>
+                        </div>
+
+
+                        <div class="rockinlilo-footer">
+                            <br>
+                            <center>
+                                <h2 class="font-montserrat-bold text-color-white">GET IN TOUCH</h2>
+                                <div class="row no-gap" style="max-width: 40%;">
+                                    <div class="col">
+                                        <a href="#" class="link external text-color-white">
+                                            <img src="assets/social/youtube.png" alt=""><span
+                                                class="font-montserrat-medium">Youtube</span>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="#" class="link external text-color-white">
+                                            <img src="assets/social/instagram.png" alt=""><span
+                                                class="font-montserrat-medium">Instagram</span>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="#" class="link external text-color-white">
+                                            <img src="assets/social/twitter.png" alt=""><span
+                                                class="font-montserrat-medium">Twitter</span></a>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="#" class="link external text-color-white">
+                                            <img src="assets/social/facebook.png" alt=""><span
+                                                class="font-montserrat-medium">Facebook</span></a>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h2 class="font-montserrat-semibold text-color-white">2021. All Right Reserved to PT
+                                    Perisai
+                                    Seni Nusantara</h2>
+                            </center>
+                        </div>
+
+                    </div>
+                    <!-- End Background Overlay-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Path jQuery JS-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/framework7/5.7.14/js/framework7.bundle.min.js"
+        integrity="sha512-mNNXnGROyRNv73WMhW121IBwZihmQe7dJ1BHQOCmjw1kyruG3anachQcKYwopFwm9281+qAN5UmbBMLB839zRQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>
