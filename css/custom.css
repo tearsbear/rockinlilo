@@ -183,6 +183,10 @@
     max-width: 60%;
 }
 
+.rockinlilo-vision {
+    padding-bottom: 100px;
+}
+
 .rockinlilo-vision-content {
     margin-top: 100px;
 }
@@ -315,6 +319,9 @@
     .rockinlilo-this-content p {
         font-size: 13px;
         max-width: 90%;
+    }
+    .rockinlilo-vision {
+        padding-bottom: 20px;
     }
     .rockinlilo-vision-content {
         margin-top: 40px;
