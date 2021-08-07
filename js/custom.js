@@ -72,6 +72,17 @@ function showYoutubeContent() {
 
             app.popup.create({
                 content: `<div class="popup">
+                            <div class="navbar">
+                                <div class="navbar-bg bg-color3"></div>
+                                <div class="navbar-inner sliding">
+                                <div class="title text-color-white">Youtube Content</div>
+                                <div class="right">
+                                    <a class="link popup-close">
+                                        <img src="../assets/Menus-close.png" width="30">
+                                    </a>
+                                </div>
+                                </div>
+                            </div>
                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/${video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>`
             }).open();
