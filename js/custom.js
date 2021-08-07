@@ -72,7 +72,7 @@ function showYoutubeContent() {
 
             app.popup.create({
                 content: `<div class="popup">
-                            <div class="navbar">
+                            <div class="navbar" style="position: fixed;">
                                 <div class="navbar-bg bg-color3"></div>
                                 <div class="navbar-inner sliding">
                                 <div class="title text-color-white">Youtube Content</div>
