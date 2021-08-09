@@ -70,7 +70,7 @@
 }
 
 .rockinlilo-lineup-btn-more a {
-    margin-left: 60px;
+    margin-left: 20px;
 }
 
 .rockinlilo-youtube {
@@ -334,6 +334,9 @@
         font-style: italic;
         font-size: 80px;
         line-height: 70px;
+    }
+    .rockinlilo-hosted img {
+        width: 60%;
     }
 }
 
